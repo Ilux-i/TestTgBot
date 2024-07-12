@@ -1,0 +1,202 @@
+2024-07-12 10:02:20,465 INFO c.e.t.TestTgBotApplication [main] Starting TestTgBotApplication using Java 21 with PID 24546 (/home/user/Рабочий стол/Projects/testTg_bot/target/classes started by user in /home/user/Рабочий стол/Projects/testTg_bot)
+2024-07-12 10:02:20,466 DEBUG c.e.t.TestTgBotApplication [main] Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-07-12 10:02:20,467 INFO c.e.t.TestTgBotApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-07-12 10:02:20,824 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-12 10:02:20,853 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 24 ms. Found 1 JPA repository interface.
+2024-07-12 10:02:21,136 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-07-12 10:02:21,142 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-12 10:02:21,143 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2024-07-12 10:02:21,143 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-12 10:02:21,173 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2024-07-12 10:02:21,173 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 677 ms
+2024-07-12 10:02:21,270 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-12 10:02:21,301 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-12 10:02:21,320 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-07-12 10:02:21,501 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-12 10:02:21,518 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-07-12 10:02:21,718 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2d5ae78e
+2024-07-12 10:02:21,719 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-07-12 10:02:22,264 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-12 10:02:22,296 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-12 10:02:22,844 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-12 10:02:23,046 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-07-12 10:02:23,051 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path '/'
+2024-07-12 10:02:23,056 INFO c.e.t.c.BotInitializer [main] Bot initializing
+2024-07-12 10:02:23,113 INFO c.e.t.c.BotInitializer [main] Bot initialized
+2024-07-12 10:02:23,113 INFO c.e.t.TestTgBotApplication [main] Started TestTgBotApplication in 2.887 seconds (process running for 3.399)
+2024-07-12 10:02:40,688 INFO c.e.t.TelegramBot [I368_bot Telegram Executor] Update data
+2024-07-12 10:02:40,730 INFO c.e.t.TelegramBot [I368_bot Telegram Executor] Replied to user Ilushka💕
+2024-07-12 10:03:17,482 INFO c.e.t.TelegramBot [I368_bot Telegram Executor] Update data
+2024-07-12 10:03:17,506 INFO c.e.t.TelegramBot [I368_bot Telegram Executor] user saved: User:{id=788205697, firstName=Ilushka💕, lastName=null, userName=I72635, registeredAt=2024-07-12T10:03:17.484477795}
+2024-07-12 10:03:17,506 INFO c.e.t.TelegramBot [I368_bot Telegram Executor] Replied to user Ilushka💕
+2024-07-12 10:04:19,359 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-12 10:04:19,360 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-07-12 10:04:19,364 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-07-12 10:16:18,870 INFO c.e.t.TestTgBotApplication [main] Starting TestTgBotApplication using Java 21 with PID 25121 (/home/user/Рабочий стол/Projects/testTg_bot/target/classes started by user in /home/user/Рабочий стол/Projects/testTg_bot)
+2024-07-12 10:16:18,871 DEBUG c.e.t.TestTgBotApplication [main] Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-07-12 10:16:18,872 INFO c.e.t.TestTgBotApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-07-12 10:16:19,245 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-12 10:16:19,275 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 25 ms. Found 1 JPA repository interface.
+2024-07-12 10:16:19,542 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-07-12 10:16:19,548 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-12 10:16:19,549 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2024-07-12 10:16:19,549 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-12 10:16:19,577 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2024-07-12 10:16:19,577 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 671 ms
+2024-07-12 10:16:19,670 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-12 10:16:19,699 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-12 10:16:19,717 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-07-12 10:16:19,887 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-12 10:16:19,902 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-07-12 10:16:20,088 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4aac81ca
+2024-07-12 10:16:20,088 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-07-12 10:16:20,584 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-12 10:16:20,617 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-12 10:16:21,183 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-12 10:16:21,375 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-07-12 10:16:21,380 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path '/'
+2024-07-12 10:16:21,386 INFO c.e.t.c.BotInitializer [main] Bot initializing
+2024-07-12 10:16:21,438 INFO c.e.t.c.BotInitializer [main] Bot initialized
+2024-07-12 10:16:21,438 INFO c.e.t.TestTgBotApplication [main] Started TestTgBotApplication in 2.792 seconds (process running for 3.269)
+2024-07-12 10:16:29,533 INFO c.e.t.TelegramBot [I368_bot Telegram Executor] Update data
+2024-07-12 10:16:29,615 INFO c.e.t.TelegramBot [I368_bot Telegram Executor] Replied to user Ilushka💕
+2024-07-12 10:29:28,141 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-12 10:29:28,143 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-07-12 10:29:28,146 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-07-12 10:29:31,398 INFO c.e.t.TestTgBotApplication [main] Starting TestTgBotApplication using Java 21 with PID 25440 (/home/user/Рабочий стол/Projects/testTg_bot/target/classes started by user in /home/user/Рабочий стол/Projects/testTg_bot)
+2024-07-12 10:29:31,398 DEBUG c.e.t.TestTgBotApplication [main] Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-07-12 10:29:31,399 INFO c.e.t.TestTgBotApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-07-12 10:29:31,763 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-12 10:29:31,792 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 25 ms. Found 1 JPA repository interface.
+2024-07-12 10:29:32,072 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-07-12 10:29:32,079 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-12 10:29:32,080 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2024-07-12 10:29:32,080 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-12 10:29:32,109 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2024-07-12 10:29:32,110 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 680 ms
+2024-07-12 10:29:32,196 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-12 10:29:32,225 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-12 10:29:32,242 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-07-12 10:29:32,428 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-12 10:29:32,444 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-07-12 10:29:32,626 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@627bcd7e
+2024-07-12 10:29:32,627 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-07-12 10:29:33,124 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-12 10:29:33,166 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-12 10:29:33,664 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-12 10:29:33,891 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-07-12 10:29:33,897 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path '/'
+2024-07-12 10:29:33,902 INFO c.e.t.c.BotInitializer [main] Bot initializing
+2024-07-12 10:29:33,957 INFO c.e.t.c.BotInitializer [main] Bot initialized
+2024-07-12 10:29:33,958 INFO c.e.t.TestTgBotApplication [main] Started TestTgBotApplication in 2.791 seconds (process running for 3.232)
+2024-07-12 10:29:36,807 INFO c.e.t.TelegramBot [I368_bot Telegram Executor] Update data
+2024-07-12 10:29:36,882 INFO c.e.t.TelegramBot [I368_bot Telegram Executor] Replied to user Ilushka💕
+2024-07-12 10:29:41,521 INFO c.e.t.TelegramBot [I368_bot Telegram Executor] Update data
+2024-07-12 10:30:05,415 INFO c.e.t.TelegramBot [I368_bot Telegram Executor] Update data
+2024-07-12 10:32:56,371 INFO c.e.t.TelegramBot [I368_bot Telegram Executor] Update data
+2024-07-12 10:34:33,041 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-12 10:34:33,043 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-07-12 10:34:33,046 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-07-12 10:47:54,722 INFO c.e.t.TestTgBotApplication [main] Starting TestTgBotApplication using Java 21 with PID 26338 (/home/user/Рабочий стол/Projects/testTg_bot/target/classes started by user in /home/user/Рабочий стол/Projects/testTg_bot)
+2024-07-12 10:47:54,723 DEBUG c.e.t.TestTgBotApplication [main] Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-07-12 10:47:54,724 INFO c.e.t.TestTgBotApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-07-12 10:47:55,093 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-12 10:47:55,124 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 27 ms. Found 1 JPA repository interface.
+2024-07-12 10:47:55,397 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-07-12 10:47:55,403 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-12 10:47:55,404 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2024-07-12 10:47:55,404 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-12 10:47:55,434 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2024-07-12 10:47:55,434 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 682 ms
+2024-07-12 10:47:55,527 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-12 10:47:55,556 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-12 10:47:55,574 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-07-12 10:47:55,751 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-12 10:47:55,768 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-07-12 10:47:55,962 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6de84336
+2024-07-12 10:47:55,963 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-07-12 10:47:56,467 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-12 10:47:56,499 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-12 10:47:56,972 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-12 10:47:57,170 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-07-12 10:47:57,175 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path '/'
+2024-07-12 10:47:57,181 INFO c.e.t.c.BotInitializer [main] Bot initializing
+2024-07-12 10:47:57,237 INFO c.e.t.c.BotInitializer [main] Bot initialized
+2024-07-12 10:47:57,237 INFO c.e.t.TestTgBotApplication [main] Started TestTgBotApplication in 2.745 seconds (process running for 3.198)
+2024-07-12 10:48:04,830 INFO c.e.t.TelegramBot [I368_bot Telegram Executor] Update data
+2024-07-12 10:48:04,904 INFO c.e.t.TelegramBot [I368_bot Telegram Executor] Replied to user Ilushka💕
+2024-07-12 10:48:07,937 INFO c.e.t.TelegramBot [I368_bot Telegram Executor] Update data
+2024-07-12 10:48:23,701 INFO c.e.t.TelegramBot [I368_bot Telegram Executor] Update data
+2024-07-12 10:48:23,701 ERROR c.e.t.TelegramBot [I368_bot Telegram Executor] Error occurred: Text parameter can't be empty
+2024-07-12 10:48:26,379 INFO c.e.t.TelegramBot [I368_bot Telegram Executor] Update data
+2024-07-12 10:48:26,379 ERROR c.e.t.TelegramBot [I368_bot Telegram Executor] Error occurred: Text parameter can't be empty
+2024-07-12 10:49:57,237 INFO c.e.t.TelegramBot [I368_bot Telegram Executor] Update data
+2024-07-12 10:49:57,237 ERROR c.e.t.TelegramBot [I368_bot Telegram Executor] Error occurred: Text parameter can't be empty
+2024-07-12 10:50:24,878 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-12 10:50:24,879 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-07-12 10:50:24,882 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-07-12 10:50:27,183 INFO c.e.t.TestTgBotApplication [main] Starting TestTgBotApplication using Java 21 with PID 26580 (/home/user/Рабочий стол/Projects/testTg_bot/target/classes started by user in /home/user/Рабочий стол/Projects/testTg_bot)
+2024-07-12 10:50:27,183 DEBUG c.e.t.TestTgBotApplication [main] Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-07-12 10:50:27,184 INFO c.e.t.TestTgBotApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-07-12 10:50:27,553 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-12 10:50:27,586 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 28 ms. Found 1 JPA repository interface.
+2024-07-12 10:50:27,889 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-07-12 10:50:27,896 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-12 10:50:27,896 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2024-07-12 10:50:27,897 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-12 10:50:27,926 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2024-07-12 10:50:27,926 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 714 ms
+2024-07-12 10:50:28,026 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-12 10:50:28,058 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-12 10:50:28,078 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-07-12 10:50:28,287 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-12 10:50:28,304 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-07-12 10:50:28,505 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1073c664
+2024-07-12 10:50:28,506 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-07-12 10:50:29,072 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-12 10:50:29,105 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-12 10:50:29,802 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-12 10:50:30,023 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-07-12 10:50:30,028 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path '/'
+2024-07-12 10:50:30,034 INFO c.e.t.c.BotInitializer [main] Bot initializing
+2024-07-12 10:50:30,090 INFO c.e.t.c.BotInitializer [main] Bot initialized
+2024-07-12 10:50:30,090 INFO c.e.t.TestTgBotApplication [main] Started TestTgBotApplication in 3.134 seconds (process running for 4.162)
+2024-07-12 10:50:30,648 INFO c.e.t.TelegramBot [I368_bot Telegram Executor] Update data
+2024-07-12 10:53:03,444 WARN c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m1s65ms128µs448ns).
+2024-07-12 10:53:03,446 ERROR c.e.t.TelegramBot [I368_bot Telegram Executor] Error occurred: Text parameter can't be empty
+2024-07-12 10:53:03,463 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-12 10:53:03,464 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-07-12 10:53:03,469 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-07-12 10:53:06,632 INFO c.e.t.TestTgBotApplication [main] Starting TestTgBotApplication using Java 21 with PID 26795 (/home/user/Рабочий стол/Projects/testTg_bot/target/classes started by user in /home/user/Рабочий стол/Projects/testTg_bot)
+2024-07-12 10:53:06,632 DEBUG c.e.t.TestTgBotApplication [main] Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-07-12 10:53:06,633 INFO c.e.t.TestTgBotApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-07-12 10:53:07,054 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-12 10:53:07,083 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 24 ms. Found 1 JPA repository interface.
+2024-07-12 10:53:07,350 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-07-12 10:53:07,356 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-12 10:53:07,357 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2024-07-12 10:53:07,357 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-12 10:53:07,385 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2024-07-12 10:53:07,385 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 718 ms
+2024-07-12 10:53:07,475 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-12 10:53:07,505 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-12 10:53:07,529 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-07-12 10:53:07,725 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-12 10:53:07,743 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-07-12 10:53:07,942 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1533338c
+2024-07-12 10:53:07,943 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-07-12 10:53:08,430 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-12 10:53:08,461 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-12 10:53:08,922 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-12 10:53:09,114 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-07-12 10:53:09,119 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path '/'
+2024-07-12 10:53:09,124 INFO c.e.t.c.BotInitializer [main] Bot initializing
+2024-07-12 10:53:09,177 INFO c.e.t.c.BotInitializer [main] Bot initialized
+2024-07-12 10:53:09,178 INFO c.e.t.TestTgBotApplication [main] Started TestTgBotApplication in 2.836 seconds (process running for 3.339)
+2024-07-12 10:53:09,376 INFO c.e.t.TelegramBot [I368_bot Telegram Executor] Update data
+2024-07-12 10:53:21,802 INFO c.e.t.TelegramBot [I368_bot Telegram Executor] Update data
+2024-07-12 10:53:31,880 INFO c.e.t.TelegramBot [I368_bot Telegram Executor] Update data
+2024-07-12 10:53:31,881 ERROR c.e.t.TelegramBot [I368_bot Telegram Executor] Error occurred: Text parameter can't be empty
+2024-07-12 10:53:53,284 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-12 10:53:53,285 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-07-12 10:53:53,289 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
